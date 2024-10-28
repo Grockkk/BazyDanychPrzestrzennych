@@ -16,4 +16,4 @@ AS BEGIN
     AND dc.CurrencyAlternateKey IN ('GBP', 'EUR')
 END;
 
-EXEC GetCurrencyRatesByYearsAgo @YearsAgo = 8;
+EXEC GetCurrencyRatesByYearsAgo @YearsAgo = 10;
