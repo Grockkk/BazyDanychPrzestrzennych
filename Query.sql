@@ -1,0 +1,10 @@
+DROP TABLE AdventureWorksDW2019.dbo.AUDIT_TABLE
+
+CREATE TABLE AdventureWorksDW2019.dbo.AUDIT_TABLE (
+    JobID INTEGER,
+    StartDT DATETIME,
+    EndDT DATETIME,
+	Rowcnt INTEGER
+);
+
+SELECT * FROM AdventureWorksDW2019.dbo.AUDIT_TABLE
