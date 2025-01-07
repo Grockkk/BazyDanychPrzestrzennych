@@ -1,0 +1,3 @@
+bcp bazyDanych10.dbo.Customers_408302 format nul -f format_customers.fmt -c -t ',' -T -S localhost
+
+bcp bazyDanych10.dbo.Customers_408302 in "01062025_customers.csv" -S "localhost" -T -F 2 -t "," -r "`n" -f "format_customers.fmt"
